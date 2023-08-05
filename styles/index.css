@@ -292,7 +292,7 @@ span {
 }
 
 .error-banner {
-  animation: error-banner 3s ease-in-out
+  animation: error-banner 3s ease-in-out;
 }
 
 /* Animation */
@@ -426,7 +426,6 @@ span {
   }
 
   .weather {
-    
   }
 
   #weather-png {

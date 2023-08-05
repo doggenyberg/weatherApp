@@ -203,9 +203,9 @@ function showErrorBanner() {
   errorBnr.style.visibility = "visible";
   errorBnr.classList.add("error-banner");
   setTimeout(() => {
-    errorBnr.classList.remove("error-banner")
+    errorBnr.classList.remove("error-banner");
     errorBnr.style.visibility = "hidden";
-  }, 3100)
+  }, 3100);
 }
 
 // function that activates when pressing the search button
