@@ -25,19 +25,19 @@ class Weather {
   getPicture() {
     switch (this.weather) {
       case "Clear":
-        return "../images/clear.png";
+        return "./images/clear.png";
       case "Clouds":
-        return "../images/clouds.png";
+        return "./images/clouds.png";
       case "Drizzle":
-        return "../images/drizzle.png";
+        return "./images/drizzle.png";
       case "Mist":
-        return "../images/mist.png";
+        return "./images/mist.png";
       case "Rain":
-        return "../images/rain.png";
+        return "./images/rain.png";
       case "Snow":
-        return "../images/snow.png";
+        return "./images/snow.png";
       default:
-        return "../images/clear.png";
+        return "./images/clear.png";
     }
   }
 
